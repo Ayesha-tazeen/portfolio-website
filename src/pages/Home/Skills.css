@@ -1,0 +1,19 @@
+/* Skills.css */
+.fade-in {
+    opacity: 0;
+    animation: fade-in-animation 1s ease-in-out forwards;
+}
+
+@keyframes fade-in-animation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-pic {
+    opacity: 0;
+    animation: fade-in-animation 5s ease-in-out forwards;
+}
